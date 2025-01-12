@@ -377,3 +377,34 @@ audio {
   max-width: 600px; /* Optional: Limit max size */
 }
 
+/* Collapsible Button */
+.collapsible {
+  background-color: #f1f1f1;
+  color: #333;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  transition: 0.4s;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.collapsible:hover {
+  background-color: #ddd;
+}
+
+/* Collapsible Content */
+.collapsible-content {
+  padding: 0 15px;
+  display: none;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ccc;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
