@@ -186,8 +186,14 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 #content
 { text-align: left;
-  width: 595px;
-  padding: 0;}
+  width: 575px;
+  padding: 0;
+}
+#content_800
+{ text-align: left;
+  width: 800px;
+  padding: 0;
+}
 
 #content ul
 { margin: 2px 0 22px 0px;}
