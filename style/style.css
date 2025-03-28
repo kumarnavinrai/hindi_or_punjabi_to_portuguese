@@ -161,6 +161,13 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   padding: 20px 24px 20px 37px;
   background: #FFF url(content.png) repeat-y;} 
 
+  #site_content_1200
+{ width: 1200px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 20px 24px 20px 37px;
+  background: #FFF url(content.png) repeat-y;} 
+
 .sidebar
 { float: right;
   width: 190px;
@@ -192,6 +199,12 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 #content_800
 { text-align: left;
   width: 830px;
+  padding: 0;
+}
+
+#content_1200
+{ text-align: left;
+  width: 1200px;
   padding: 0;
 }
 
